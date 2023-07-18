@@ -1,6 +1,6 @@
 import agent from "../../app/api/agent";
 import LoadingComponent from "../../app/layout/LoadingComponent";
-import { Product } from "../../app/layout/models/products";
+import { Product } from "../../app/models/products";
 import ProductList from "./ProductList";
 import { useState, useEffect } from "react";
 
