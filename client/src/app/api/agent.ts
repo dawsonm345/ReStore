@@ -100,12 +100,17 @@ const Orders = {
 
 }
 
+const Payments = {
+    createPaymentIntent: () => request.post('payments', {})
+}
+
 const agent ={
     Catalog,
     TestErrors,
     Basket,
     Account,
-    Orders
+    Orders,
+    Payments
 }
 
 
